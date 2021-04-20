@@ -81,6 +81,9 @@ This is probably one of the biggest things that I had to face, and it’s someth
 <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" /> and more...
 
 <br/>
+<br/>
+<br/>
+
 <img src="https://images.unsplash.com/photo-1561347981-969c80cf4463?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwcXVvdGVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"> 
 <img align="right" src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXw4MjQyNzMzMXx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
 
