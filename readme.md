@@ -40,6 +40,9 @@ Despite this fear and many people telling me that I wouldn’t be able to surviv
 
 <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGNvZGluZyUyMHF1b3Rlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
   <img align="right" alt="GIF" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" />
+  <br/>
+<br/>
+
 
 
 ### How I leveled up my programming
@@ -47,6 +50,9 @@ Every new project and endeavour showed me the gaps in my skill set. I decided to
 
 <img src="https://images.unsplash.com/photo-1536148935331-408321065b18?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGNvZGluZyUyMHF1b3Rlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
 <img align="right" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="80px">
+<br/>
+<br/>
+
 
 ### Dealing with Imposter Syndrome
 This is probably one of the biggest things that I had to face, and it’s something I still deal with albeit far less frequently. All of a sudden surrounded by developers with degrees, I felt as though everything I knew was “fake” or less valuable in some way: I experienced extreme imposter syndrome symptoms. I felt that I couldn’t hold my own in technical conversations because I somehow wasn’t qualified to contribute and that anything I would say would be wrong.
@@ -54,6 +60,9 @@ This is probably one of the biggest things that I had to face, and it’s someth
 <img src="https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGNvZGluZyUyMHF1b3Rlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
 
 <img align="right" src="https://images.unsplash.com/photo-1487014679447-9f8336841d58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxNTk2NzQyfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+<br/>
+<br/>
+
 
 
 ### More about me
@@ -86,6 +95,9 @@ This is probably one of the biggest things that I had to face, and it’s someth
 
 <img src="https://images.unsplash.com/photo-1561347981-969c80cf4463?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwcXVvdGVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"> 
 <img align="right" src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXw4MjQyNzMzMXx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+<br/>
+<br/>
+
 
 
 ### Spotify Playing 🎧
