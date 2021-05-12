@@ -2,89 +2,255 @@
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
-				@keyframes rotate {
-					0% {
-						transform: rotate(3deg);
-					}
-					100% {
-						transform: rotate(-3deg);
-					}
-				}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-				@keyframes gradientBackground {
-					0% {
-						background-position: 0% 50%;
-					}
-					50% {
-						background-position: 100% 50%;
-					}
-					100% {
-						background-position: 0% 50%;
-					}
-				}
+h1 {
+  color: #426696;
+  font-weight: 600;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+h2,
+p {
+  color: #658ec6;
+  font-weight: 500;
+  opacity: 0.8;
+}
 
-				@keyframes fadeIn {
-					0% {
-						opacity: 0;
-					}
-					66% {
-						opacity: 0;
-					}
-					100% {
-						opacity: 1;
-					}
-				}
+h3 {
+  color: #426696;
+  font-weight: 600;
+  opacity: 0.8;
+}
 
-				.container {
-					font-family:
-						system-ui,
-						-apple-system,
-						'Segoe UI',
-						Roboto,
-						Helvetica,
-						Arial,
-						sans-serif,
-						'Apple Color Emoji',
-						'Segoe UI Emoji';
-					display: flex;
-					flex-direction: column;
-					align-items: center;
-					justify-content: center;
-					margin: 0;
-					width: 100%;
-					height: 400px;
-					background: linear-gradient(-45deg, #fc5c7d, #6a82fb, #05dfd7);
-					background-size: 600% 400%;
-					animation: gradientBackground 10s ease infinite;
-					border-radius: 10px;
-					color: white;
-					text-align: center;
-				}
+main {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-				h1 {
-					font-size: 50px;
-					line-height: 1.3;
-					letter-spacing: 5px;
-					text-transform: uppercase;
-					text-shadow:
-						0 1px 0 #efefef,
-						0 2px 0 #efefef,
-						0 3px 0 #efefef,
-						0 4px 0 #efefef,
-						0 12px 5px rgba(0, 0, 0, 0.1);
-					animation: rotate ease-in-out 1s infinite alternate;
-				}
+.glass {
+  background: white;
+  min-height: 80vh;
+  width: 60%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(2rem);
+  display: flex;
+}
+.circle1,
+.circle2 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  border-radius: 50%;
+}
 
-				p {
-					font-size: 20px;
-					text-shadow: 0 1px 0 #efefef;
-					animation: 5s ease 0s normal forwards 1 fadeIn;
-				}
+.circle1 {
+  top: 5%;
+  right: 15%;
+}
+.circle2 {
+  bottom: 5%;
+  left: 10%;
+}
+.dashboard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+}
+.link {
+  display: flex;
+  margin: 2rem 0rem;
+  padding: 1rem 5rem;
+  align-items: center;
+}
+.link h2 {
+  padding: 0rem 2rem;
+}
+
+.games {
+  flex: 2;
+}
+
+.pro {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  border-radius: 2rem;
+  color: white;
+  padding: 1rem;
+  position: relative;
+}
+
+.pro img {
+  position: absolute;
+  top: -10%;
+  right: 10%;
+}
+.pro h2 {
+  width: 40%;
+  color: white;
+  font-weight: 600;
+}
+
+/* GAMES */
+.status {
+  margin-bottom: 3rem;
+}
+
+.status input {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border: none;
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 2rem;
+}
+
+.games {
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 1rem;
+  margin: 2rem 0rem;
+  padding: 2rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+  justify-content: space-between;
+}
+
+.progress {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  width: 100%;
+  height: 25%;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+.progress::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(236, 236, 236);
+  position: absolute;
+  left: 60%;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.percentage {
+  font-weight: bold;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 			</style>
-			<div class="container">
-				
-				<h1>I am Sibongumusa Lungelo</h1>
-				<p>A 16 year old passionate Full Stack Web Developer/Freelancer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.</p>
+			<div class="glass">
+				<div class="dashboard">
+          <div class="user">
+            <img src="./images/avatar.png" alt="" />
+            <h3>Simo Edwin</h3>
+            <p>Pro Member</p>
+          </div>
+          <div class="links">
+            <div class="link">
+              <img src="./images/twitch.png" alt="" />
+              <h2>Streams</h2>
+            </div>
+            <div class="link">
+              <img src="./images/steam.png" alt="" />
+              <h2>Games</h2>
+            </div>
+            <div class="link">
+              <img src="./images/upcoming.png" alt="" />
+              <h2>New</h2>
+            </div>
+            <div class="link">
+              <img src="./images/library.png" alt="" />
+              <h2>Library</h2>
+            </div>
+          </div>
+          <div class="pro">
+            <h2>Join pro for free games.</h2>
+            <img src="./images/controller.png" alt="" />
+          </div>
+        </div>
+        <div class="games">
+          <div class="status">
+            <h1>Active Games</h1>
+            <input type="text" />
+          </div>
+          <div class="cards">
+            <div class="card">
+              <img src="./images/assassins.png" alt="" />
+              <div class="card-info">
+                <h2>Assassins Creed Valhalla</h2>
+                <p>PS5 Version</p>
+                <div class="progress"></div>
+              </div>
+              <h2 class="percentage">60%</h2>
+            </div>
+            <div class="card">
+              <img src="./images/sackboy.png" alt="" />
+              <div class="card-info">
+                <h2>Sackboy A Great Advanture</h2>
+                <p>PS5 Version</p>
+                <div class="progress"></div>
+              </div>
+              <h2 class="percentage">60%</h2>
+            </div>
+            <div class="card">
+              <img src="./images/spiderman.png" alt="" />
+              <div class="card-info">
+                <h2>Spiderman Miles Morales</h2>
+                <p>PS5 Version</p>
+                <div class="progress"></div>
+              </div>
+              <h2 class="percentage">60%</h2>
+            </div>
+          </div>
+        </div>
 			</div>
 		</div>
 	</foreignObject>
