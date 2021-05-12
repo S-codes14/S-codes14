@@ -2,256 +2,241 @@
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+            * {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
 }
 
-h1 {
-  color: #426696;
-  font-weight: 600;
-  font-size: 3rem;
-  opacity: 0.8;
+body {
+	font-family: 'Poppins', sans-serif;
 }
-h2,
-p {
-  color: #658ec6;
-  font-weight: 500;
-  opacity: 0.8;
+button {
+	font-family: 'Poppins', sans-serif;
 }
 
-h3 {
-  color: #426696;
-  font-weight: 600;
-  opacity: 0.8;
+header {
+	display: flex;
+	width: 90%;
+	height: 10vh;
+	margin: auto;
+	align-items: center;
 }
 
-main {
-  font-family: "Poppins", sans-serif;
-  min-height: 100vh;
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.logo-container,
+.nav-links,
+.cart {
+	display: flex;
 }
 
-.glass {
-  background: white;
-  min-height: 80vh;
-  width: 60%;
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
-  border-radius: 2rem;
-  z-index: 2;
-  backdrop-filter: blur(2rem);
-  display: flex;
+.logo-container {
+	flex: 1;
 }
-.circle1,
-.circle2 {
-  background: white;
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.8),
-    rgba(255, 255, 255, 0.3)
-  );
-  height: 20rem;
-  width: 20rem;
-  position: absolute;
-  border-radius: 50%;
+.logo {
+	font-weight: 400;
+	margin: 5px;
+}
+nav {
+	flex: 2;
+}
+.nav-links {
+	justify-content: space-around;
+	list-style: none;
+}
+.nav-link {
+	color: #5f5f79;
+	font-size: 18px;
+	text-decoration: none;
+}
+.cart {
+	flex: 1;
+	justify-content: flex-end;
 }
 
-.circle1 {
-  top: 5%;
-  right: 15%;
+.presentation {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	min-height: 80vh;
+	align-items: center;
 }
-.circle2 {
-  bottom: 5%;
-  left: 10%;
+.introduction {
+	flex: 1;
 }
-.dashboard {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  text-align: center;
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
-  border-radius: 2rem;
+.intro-text h1 {
+	font-size: 44px;
+	font-weight: 500;
+	background: linear-gradient(to right, #494964, #6f6f89);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
-.link {
-  display: flex;
-  margin: 2rem 0rem;
-  padding: 1rem 5rem;
-  align-items: center;
+.intro-text p {
+	margin-top: 5px;
+	font-size: 22px;
+	color: #585772;
 }
-.link h2 {
-  padding: 0rem 2rem;
+.cta {
+	padding: 50px 0px 0px 0px;
 }
-
-.games {
-  flex: 2;
+.cta-select {
+	border: 2px solid #c36cbb;
+	background: transparent;
+	color: #c36cbb;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 16px;
 }
-
-.pro {
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
-  border-radius: 2rem;
-  color: white;
-  padding: 1rem;
-  position: relative;
-}
-
-.pro img {
-  position: absolute;
-  top: -10%;
-  right: 10%;
-}
-.pro h2 {
-  width: 40%;
-  color: white;
-  font-weight: 600;
+.cta-add {
+	background: #c36cbb;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 16px;
+	border: none;
+	color: white;
+	margin: 30px 0px 0px 30px;
 }
 
-/* GAMES */
-.status {
-  margin-bottom: 3rem;
+.cover {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	height: 60vh;
+}
+.cover img {
+	height: 100%;
+	filter: drop-shadow(0px 5px 3px black);
+	animation: drop 1.5s ease;
 }
 
-.status input {
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
-  border: none;
-  width: 50%;
-  padding: 0.5rem;
-  border-radius: 2rem;
+.big-circle {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: -1;
+	opacity: 0.5;
+	height: 80%;
+}
+.medium-circle {
+	position: absolute;
+	top: 30%;
+	right: 30%;
+	z-index: -1;
+	height: 60%;
+	opacity: 0.4;
+}
+.small-circle {
+	position: absolute;
+	bottom: 0%;
+	left: 20%;
+	z-index: -1;
 }
 
-.games {
-  margin: 5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+.laptop-select {
+	width: 15%;
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	right: 20%;
 }
 
-.card {
-  display: flex;
-  background: linear-gradient(
-    to left top,
-    rgba(255, 255, 255, 0.8),
-    rgba(255, 255, 255, 0.5)
-  );
-  border-radius: 1rem;
-  margin: 2rem 0rem;
-  padding: 2rem;
-  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
-  justify-content: space-between;
+@keyframes drop {
+	0% {
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
 }
 
-.progress {
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
-  width: 100%;
-  height: 25%;
-  border-radius: 1rem;
-  position: relative;
-  overflow: hidden;
-}
-.progress::after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: rgb(236, 236, 236);
-  position: absolute;
-  left: 60%;
-}
-.card-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+@media screen and (max-width: 1024px) {
+	.presentation {
+		flex-direction: column;
+	}
+	.introduction {
+		margin-top: 5vh;
+		text-align: center;
+	}
+	.intro-text h1 {
+		font-size: 30px;
+	}
+	.intro-text p {
+		font-size: 18px;
+	}
+	.cta {
+		padding: 10px 0px 0px 0px;
+	}
+	.laptop-select {
+		bottom: 5%;
+		right: 50%;
+		width: 50%;
+		transform: translate(50%, 5%);
+	}
+	.cover img {
+		height: 80%;
+	}
+	.small-circle,
+	.medium-circle,
+	.big-circle {
+		opacity: 0.2;
+	}
 }
 
-.percentage {
-  font-weight: bold;
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 			</style>
-			<div class="glass">
-				<div class="dashboard">
-          <div class="user">
-            <img src="https://github.com/developedbyed/glass-website/tree/master/images/avatar.png" alt="" />
-            <h3>Simo Edwin</h3>
-            <p>Pro Member</p>
-          </div>
-          <div class="links">
-            <div class="link">
-              <img src="https://github.com/developedbyed/glass-website/tree/master/images/twitch.png" alt="" />
-              <h2>Streams</h2>
-            </div>
-            <div class="link">
-              <img src="https://github.com/developedbyed/glass-website/tree/master/images/steam.png" alt="" />
-              <h2>Games</h2>
-            </div>
-            <div class="link">
-              <img src="https://github.com/developedbyed/glass-website/tree/master/images/upcoming.png" alt="" />
-              <h2>New</h2>
-            </div>
-            <div class="link">
-              <img src="https://github.com/developedbyed/glass-website/tree/master/images/library.png" alt="" />
-              <h2>Library</h2>
-            </div>
-          </div>
-          <div class="pro">
-            <h2>Join pro for free games.</h2>
-            <img src="https://github.com/developedbyed/glass-website/tree/master/images/controller.png" alt="" />
-          </div>
-        </div>
-        <div class="games">
-          <div class="status">
-            <h1>Active Games</h1>
-            <input type="text" />
-          </div>
-          <div class="cards">
-            <div class="card">
-              <img src="https://github.com/developedbyed/glass-website/tree/master/images/assassins.png" alt="" />
-              <div class="card-info">
-                <h2>Assassins Creed Valhalla</h2>
-                <p>PS5 Version</p>
-                <div class="progress"></div>
-              </div>
-              <h2 class="percentage">60%</h2>
-            </div>
-            <div class="card">
-              <img src="https://github.com/developedbyed/glass-website/tree/master/images/sackboy.png" alt="" />
-              <div class="card-info">
-                <h2>Sackboy A Great Advanture</h2>
-                <p>PS5 Version</p>
-                <div class="progress"></div>
-              </div>
-              <h2 class="percentage">60%</h2>
-            </div>
-            <div class="card">
-              <img src="https://github.com/developedbyed/glass-website/tree/master/images/spiderman.png" alt="" />
-              <div class="card-info">
-                <h2>Spiderman Miles Morales</h2>
-                <p>PS5 Version</p>
-                <div class="progress"></div>
-              </div>
-              <h2 class="percentage">60%</h2>
-            </div>
-          </div>
-        </div>
+	<body><div>
+		<header>
+			<div class="logo-container">
+				<img src="./img/logo.svg" alt="logo" />
+				<h4 class="logo">Three Dots</h4>
 			</div>
-		</div>
+			<nav>
+				<ul class="nav-links">
+					<li><a class="nav-link" href="#">Specs</a></li>
+					<li><a class="nav-link" href="#">Products</a></li>
+					<li><a class="nav-link" href="#">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="cart">
+				<img src="./img/cart.svg" alt="cart" />
+			</div>
+		</header>
+
+		<main>
+			<section class="presentation">
+				<div class="introduction">
+					<div class="intro-text">
+						<h1>Laptop for the future</h1>
+						<p>
+							The new 14 inch bezeless display oferring a 4k
+							display with touch screen.
+						</p>
+					</div>
+					<div class="cta">
+						<button class="cta-select">14 Inch</button>
+						<button class="cta-add">Add To Cart</button>
+					</div>
+				</div>
+				<div class="cover">
+					<img src="./img/matebook.png" alt="matebook" />
+				</div>
+			</section>
+
+			<div class="laptop-select">
+				<img src="./img/arrow-left.svg" alt="" />
+				<img src="./img/dot.svg" alt="" />
+				<img src="./img/dot-full.svg" alt="" />
+				<img src="./img/dot-full.svg" alt="" />
+				<img src="./img/arrow-right.svg" alt="" />
+			</div>
+
+			<img class="big-circle" src="./img/big-eclipse.svg" alt="" />
+			<img class="medium-circle" src="./img/mid-eclipse.svg" alt="" />
+			<img class="small-circle" src="./img/small-eclipse.svg" alt="" />
+		</main>
+	</div>
+	</body>
 	</foreignObject>
 </svg>
