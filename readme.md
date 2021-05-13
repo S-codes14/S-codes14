@@ -1,7 +1,7 @@
 <div align="center">
 	<br>
 	<a href="https://s-lungelo.netlify.app"> 
-		<img src="header.svg" width="800" height="400">
+		<img src="ti.svg" width="800" height="400">
 	</a>
 	<br>
 </div>
@@ -26,19 +26,19 @@ I am a 16 year who loves to transform ideas into reality using code. The path of
 
 Ever since I was a kid I was fascinated with technology. Growing up, I used to play with any old computer equipment I could get my hands on. One of my greatest joys was poking around in old hard drives.
 
-<img src="https://raw.githubusercontent.com/S-codes14/S-codes14/main/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg">
+<img align="right" src="https://raw.githubusercontent.com/S-codes14/S-codes14/main/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg" width="250" height="240">
 
 ### Getting into development
 During High School, my interest in development really took off but I also dreamed about launching my own business.That’s why I began to teach myself web design by watching youtube videos. As I continued I got even more intrested so I also explored backend then mobile...  
 
-<img src="https://raw.githubusercontent.com/S-codes14/S-codes14/main/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg">
+<img align="right" src="https://raw.githubusercontent.com/S-codes14/S-codes14/main/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg" width="250" height="240">
 
 ### I dont have a degree and I am not intrested in one
 Like any teenager, I started thinking about my life post-high school from about the age of 13. I had quite strong feelings against studying, especially because I felt like I was making some sort of progress in life already. On the other hand, however, I also had the inkling that society generally supported, encouraged and even required a university degree to get anywhere in life. My biggest worry was that I wouldn’t be able to get a job without a piece of paper that declared my competency.
 
 Despite this fear and many people telling me that I wouldn’t be able to survive, I ended up deciding not to go study: To a large degree, it was probably because of this tiny, stubborn spark of “I’ll show you” deep within me. However, I also felt that I had already learned and experienced quite a lot on my own and many traditional courses in programming seemed like they would cover what I already knew. I am worried that I would be bored and then quit
 
-<img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGNvZGluZyUyMHF1b3Rlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+<img align="right" src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGNvZGluZyUyMHF1b3Rlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width="250" height="240">
   <img align="right" alt="GIF" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" />
   <br/>
 <br/>
