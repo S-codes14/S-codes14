@@ -16,7 +16,7 @@
 
 
 ### <img src="https://raw.githubusercontent.com/S-codes14/S-codes14/main/Hi.gif" width="29px"> Hi there I am Sibonumusa  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif" width="24px">
-I am a 16 year who loves to transform ideas into reality using code. The path of a self-taught developer can be scary and intimidating. For me, getting into code turned out to be the right choice anyways: When the responsibility for your growth, career and learning sits 100% on your own shoulders, you also completely own your wins. Here’s my story and what I learned.
+I am a 16 year who loves to transform ideas into reality using code. The path of a self-taught developer can be scary and intimidating. For me, getting into code turned out to be the right choice anyways: When the responsibility for your growth, career and learning sits 100% on your own shoulders, you also completely own your wins. 
 
 
 ### More about me
