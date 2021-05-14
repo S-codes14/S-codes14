@@ -1,10 +1,4 @@
-<div align="center">
-	<br>
-	<a href="https://s-lungelo.netlify.app"> 
-		<img src="ti.svg" width="800" height="400">
-	</a>
-	<br>
-</div>
+
 
 <p align="center">
 	<!-- <a href="https://github.com/S-codes14"><img src="https://img.shields.io/github/followers/S-codes14?label=GitHub&style=social" alt="GitHub"></a> -->
