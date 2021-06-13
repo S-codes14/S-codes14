@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6262afd03c0cdc5c8e52b31198ad283a",
+    "revision": "2bcd20db43fa9ca51412f8e847dac316",
     "url": "/index.html"
   },
   {
-    "revision": "a4784c9a7e7a2a5fa17f",
+    "revision": "caad7a70cc4566b421ff",
     "url": "/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "0e62c97f89528a21b89e",
+    "revision": "65582a5c34ac62f74eb7",
     "url": "/static/css/4.e568d4fa.chunk.css"
   },
   {
-    "revision": "51c10b9c111a7f8f5917",
+    "revision": "6069114ca5d6103cc946",
     "url": "/static/css/main.239750f5.chunk.css"
   },
   {
-    "revision": "30f8e237b67c511c4a0c",
-    "url": "/static/js/2.41a78429.chunk.js"
+    "revision": "65e0f5a9b957c3a8406f",
+    "url": "/static/js/2.198d8853.chunk.js"
   },
   {
-    "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.41a78429.chunk.js.LICENSE.txt"
+    "revision": "dee20774829cf0501a8e56b83b50c498",
+    "url": "/static/js/2.198d8853.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a4784c9a7e7a2a5fa17f",
-    "url": "/static/js/3.e35ed70c.chunk.js"
+    "revision": "caad7a70cc4566b421ff",
+    "url": "/static/js/3.6eac6260.chunk.js"
   },
   {
-    "revision": "0e62c97f89528a21b89e",
-    "url": "/static/js/4.68ab67e6.chunk.js"
+    "revision": "65582a5c34ac62f74eb7",
+    "url": "/static/js/4.fd00ab50.chunk.js"
   },
   {
-    "revision": "51c10b9c111a7f8f5917",
-    "url": "/static/js/main.fb07f17c.chunk.js"
+    "revision": "6069114ca5d6103cc946",
+    "url": "/static/js/main.9ba2f2e2.chunk.js"
   },
   {
-    "revision": "a2646b84055c150af8da",
-    "url": "/static/js/runtime-main.8aa672b4.js"
+    "revision": "257f3b17f2fcebe4d4b3",
+    "url": "/static/js/runtime-main.eb848483.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -68,12 +68,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pwaLogo.ee62cb58.webp"
   },
   {
-    "revision": "b3d56ecb5eeb781380632817ac0f6a1e",
-    "url": "/static/media/rando.b3d56ecb.jpg"
-  },
-  {
     "revision": "3440939881da8339d1597e8d77cdf850",
     "url": "/static/media/skill.34409398.svg"
+  },
+  {
+    "revision": "72433fbac57f4f6099483f134c0f3da5",
+    "url": "/static/media/smaller.72433fba.png"
   },
   {
     "revision": "950ac1dc115f1f6cb66327f21cb4118c",
