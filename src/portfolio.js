@@ -10,9 +10,9 @@ const illustration = {
 
 const greeting = {
   username: "Sibongumusa Lungelo",
-  title: "I'm Sibongumusa",
+  title: "Sibongumusa",
   subTitle: emoji(
-    "A passionate Full Stack Web Developer/Freelancer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "🚀A developer who loves to transform ideas into reality using code. The path of a self-taught developer can be scary and intimidating. For me, getting into code turned out to be the right choice anyways: When the responsibility for your growth, career and learning sits 100% on your own shoulders, you also completely own your wins.🚀"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
@@ -27,7 +27,7 @@ const socialMediaLinks = {
   gmail: "smlmnguni14@gmail.com",
   instagram: "https://www.instagram.com/sbongumusas/",
   facebook: "https://www.facebook.com/sbongumusa.sbongumusa.5/",
-  twitter: "https://twitter.com/Sibongu14624275",
+  twitter: "https://twitter.com/s_codes14",
   stackoverflow: "https://stackoverflow.com/users/15496696/sibongumusa-lungelo",
   upwork: "https://www.upwork.com/freelancers/~013f1fd3a5fd8cb440",
   // Instagram and Twitter are also supported in the links!
@@ -109,34 +109,34 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "YouTube",
       logo: require("./assets/images/youtube.png"),
-      subHeader: "YouTube Videos that teach Web Development",
-      duration: "September 2019 - Currently",
-      desc: "Participated in livestreams watched videos/tutorials all night learning web development, Got tips and several advice from content creators.",
-      descBullets: [
-        ".Clever Programmer",
-        ".Traversy Media. Massachusetts About Youtuber Traversy Media features the best online web development and programming tutorials for all of the latest web technologies including Node. ...",
-        ".LevelUpTuts. ...",
-        ".kudvenkat. ...",
-        ".mmtuts. ...",
-        ".Codecourse. ...",
-        ".Google Chrome Developers. ...",
-        ".The Net Ninja. ...",
-        ".LearnCode."
-      ]
+      // subHeader: "YouTube Videos that teach Web Development",
+      // duration: "September 2019 - Currently",
+      // desc: "Participated in livestreams watched videos/tutorials all night learning web development, Got tips and several advice from content creators.",
+      // descBullets: [
+      //   ".Clever Programmer",
+      //   ".Traversy Media. Massachusetts About Youtuber Traversy Media features the best online web development and programming tutorials for all of the latest web technologies including Node. ...",
+      //   ".LevelUpTuts. ...",
+      //   ".kudvenkat. ...",
+      //   ".mmtuts. ...",
+      //   ".Codecourse. ...",
+      //   ".Google Chrome Developers. ...",
+      //   ".The Net Ninja. ...",
+      //   ".LearnCode."
+      // ]
     },
     {
       schoolName: "Free Code Camp",
       logo: require("./assets/images/freeCodeCamp.png"),
-      subHeader: "Web Development",
-      duration: "September 2019 - currently",
-      desc:
-        "At Free Code Camp, I learnt powerful skills while (eventually) building real-world projects for nonprofit organizations.",
-      descBullets: [".It’s an open-source community that provides hundreds (well, thousands) coding challenges, projects, certificates, and connections for aspiring coders--and it’s not a boot camp, so you learn at your own pace. It’s all free, and through it you can even get connected to other up-and-coming coders in your city."]
+      // subHeader: "Web Development",
+      // duration: "September 2019 - currently",
+      // desc:
+      //   "At Free Code Camp, I learnt powerful skills while (eventually) building real-world projects for nonprofit organizations.",
+      // descBullets: [".It’s an open-source community that provides hundreds (well, thousands) coding challenges, projects, certificates, and connections for aspiring coders--and it’s not a boot camp, so you learn at your own pace. It’s all free, and through it you can even get connected to other up-and-coming coders in your city."]
     }
   ]
 };
@@ -156,7 +156,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "30%"
+      progressPercentage: "65%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -165,7 +165,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Freelance Web Developer",
@@ -190,8 +190,6 @@ const workExperiences = {
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
@@ -202,16 +200,28 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "Some startup Company i am involved in is rando",
+  subtitle: "They are projects that i have worked on but i wouldn't say they are that big",
   projects: [
     {
-      image: require("./assets/images/rando.jpg"),
-      projectName: "Rando",
-      projectDesc: "What is expected to be the next big social network after facebook,twitter,instagram,tik tok. Rando's future is looking bright and as the founder i have big dreams for it.. feel free to ask for an update of Rando",
+      image: require("./assets/images/smaller.png"),
+      projectName: "Smaller-Sites",
+      projectDesc: "Powerful, free and easy to use drag and drop builder for blogs, websites or ecommerce stores. Designed for everyone Developers and non Developers. You can use it to design your next website. ",
       footerLink: [
         {
-          name: "Ask more, Send a message",
-          url: "https://www.facebook.com/sbongumusa.sbongumusa.5/"
+          name: "Visit",
+          url: "https://smaller-sites.netlify.app"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+     {
+      image: require("./assets/images/phantasmlogo.jpg"),
+      projectName: "Phantanizer",
+      projectDesc: "an open source 3D VR game engine for the web it allows designers and web developers to easily develop 3D experiences that can run directly in a web page or be exported as Desktop applications.It has a fully featured visual editor, supports a wide range of file formats, the tools are open source and completely free to use for both personal and commercial usage, it is powered by open web APIs like WebGL, WebXR and Web Audio.The project build on top of open source libraries with good community support like nwjs.io, three.js, cannon.js, opentype, jscolor.com, codemirror.net, leapjs, jshint.com, yuidoc",
+      footerLink: [
+        {
+          name: "Visit",
+          url: "https://phantasm-studios.github.io/Phantanizer/"
         }
         //  you can add extra buttons here.
       ]
@@ -249,7 +259,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -288,7 +298,7 @@ const blogSection = {
       description:" gradientful is a community contributed collection of beautiful multi-color gradients "
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -312,7 +322,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "freeCodeCamp", //Replace "twitter" with your twitter username without @
+  userName: "s_codes14", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 

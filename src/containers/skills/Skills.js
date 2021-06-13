@@ -3,9 +3,10 @@ import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import {illustration, skillsSection} from "../../portfolio";
 import {Fade} from "react-reveal";
-import codingPerson from "../../assets/lottie/codingPerson";
+import codingPerson from "../../assets/lottie/7471-personal";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import ReactReadMoreReadLess from "react-read-more-read-less";
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
