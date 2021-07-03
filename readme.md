@@ -41,11 +41,11 @@ I am a 16 year who loves to transform ideas into reality using code. The path of
 
 
 ### More about me
-- 🔭 I’m currently working on [smaller](https://github.com/users/S-codes14/projects/1).
+- 🔭 I’m currently working on [smaller](https://smaller-studios.github.io/).
 - 🌱 I’m currently learning other cool javascript frameworks/libraries.
 - ⚡ Available for remote work/Freelance projects/internship opportunities.
 - 👯 I’m looking to collaborate on Web Projects.
-- 🤔 I’m looking for help with [smaller](https://github.com/users/S-codes14/projects/1).
+- 🤔 I’m looking for help with [smaller](https://smaller-studios.github.io/).
 - 😄 Pronouns: He/Him 
 - 💬 Ask me about anything
 - 📫 How to reach me: All information is provided on my [portfolio](https://s-lungelo.netlify.app)
