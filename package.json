@@ -22,8 +22,7 @@
     "build": "node fetch.js && react-scripts build",
     "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "format": "prettier --write \"./**/*.{js,css,json}\""
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
