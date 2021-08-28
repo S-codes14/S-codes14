@@ -12,10 +12,10 @@ const greeting = {
   username: "Sibongumusa Lungelo",
   title: "Sibongumusa",
   subTitle: emoji(
-    "🚀A developer who loves to transform ideas into reality using code. The path of a self-taught developer can be scary and intimidating. For me, getting into code turned out to be the right choice anyways: When the responsibility for your growth, career and learning sits 100% on your own shoulders, you also completely own your wins.🚀"
+    "A developer who loves to transform ideas into reality using code. The path of a self-taught developer can be scary and intimidating. For me, getting into code turned out to be the right choice anyways: When the responsibility for your growth, career and learning sits 100% on your own shoulders, you also completely own your wins."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+  // resumeLink:
+  //   "",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -25,11 +25,11 @@ const socialMediaLinks = {
   github: "https://github.com/S-codes14",
   linkedin: "https://www.linkedin.com/in/sibongumusa-lungelo-28268220a/",
   gmail: "smlmnguni14@gmail.com",
-  instagram: "https://www.instagram.com/sbongumusas/",
+  instagram: "https://www.instagram.com/s.codes14/",
   facebook: "https://www.facebook.com/sbongumusa.sbongumusa.5/",
   twitter: "https://twitter.com/s_codes14",
-  stackoverflow: "https://stackoverflow.com/users/15496696/sibongumusa-lungelo",
-  upwork: "https://www.upwork.com/freelancers/~013f1fd3a5fd8cb440",
+  // stackoverflow: "https://stackoverflow.com/users/15496696/sibongumusa-lungelo",
+  // upwork: "https://www.upwork.com/freelancers/~013f1fd3a5fd8cb440",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -228,7 +228,7 @@ const bigProjects = {
     }
 
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
