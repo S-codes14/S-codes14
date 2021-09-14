@@ -1,4 +1,5 @@
 
+
            MMM.           .MMM
            MMMMMMMMMMMMMMMMMMM
            MMMMMMMMMMMMMMMMMMM      ___________________ 
@@ -31,6 +32,7 @@
 	<a href="https://s-lungelo.netlify.app"><img src="https://img.shields.io/badge/-Portfolio%20Website-%233781da?&style=for-the-badge" alt="Portfolio" /></a>
     <!-- <a href="mailto:smlmnguni14@gmail.com"><img src="https://img.shields.io/badge/-smlmnguni14@gmail.com-c14438?
 	style=flat-square&logo=Gmail&logoColor=white&link=mailto:smlmnguni14@gmail.com" alt="Gmail" /></a> -->
+	<img src="https://komarev.com/ghpvc/?username=s-codes14&label=Profile%20views&color=0e75b6&style=flat" alt="s-codes14" />
 	<a href="mailto:smlmnguni14@gmail.com"><img src="https://img.shields.io/badge/-smlmnguni14@gmail.com-c14438?style=for-the-badge&logo=Gmail&logoColor=white" alt="Gmail" /></a>
 	
 </p>
