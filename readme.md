@@ -58,7 +58,7 @@ I am a 16 year who loves to transform ideas into reality using code. The path of
 
 <img src="https://github-readme-stats.vercel.app/api?username=S-codes14&hide=prs&show_icons=true&title_color=3380C4&icon_color=3380C4&text_color=edf2f7&bg_color=151515" />
 
-[![S-codes14](https://activity-graph.herokuapp.com/graph?username=s-codes14&custom_title=S-codes14&hide_border=true&theme=chartreuse-dark)](https://github.com/S-codes14/github-readme-activity-graph)
+[![S-codes14](https://activity-graph.herokuapp.com/graph?username=s-codes14&custom_title=Represents+S-codes14s+heartbeat&hide_border=true&theme=chartreuse-dark)](https://github.com/S-codes14/github-readme-activity-graph)
 
 
 <!-- is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
