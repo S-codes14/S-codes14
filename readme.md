@@ -28,7 +28,7 @@
 	<a href="https://www.linkedin.com/in/sibongumusa-lungelo-28268220a/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 	<!-- <a href="https://www.instagram.com/sbongumusas/"><img src="https://img.shields.io/badge/-Instagram-dd2a7b?
 	logo=instagram&logoColor=white&link=https://www.instagram.com/sbongumusas/" alt="Instagram" /></a> -->
-	<a href="https://www.instagram.com/s.codes14/"><img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+	<a href="https://www.instagram.com/s_codes14/"><img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 	<a href="https://s-lungelo.netlify.app"><img src="https://img.shields.io/badge/-Portfolio%20Website-%233781da?&style=for-the-badge" alt="Portfolio" /></a>
     <!-- <a href="mailto:smlmnguni14@gmail.com"><img src="https://img.shields.io/badge/-smlmnguni14@gmail.com-c14438?
 	style=flat-square&logo=Gmail&logoColor=white&link=mailto:smlmnguni14@gmail.com" alt="Gmail" /></a> -->
@@ -43,11 +43,11 @@ I am a 16 year who loves to transform ideas into reality using code. The path of
 
 
 ### More about me
-- 🔭 I’m currently working on [smaller](https://smaller-studios.github.io/).
-- 🌱 I’m currently learning other cool javascript frameworks/libraries.
+- 🔭 I’m currently working on the next BILLION DOLLAR APP
+- 🌱 I’m currently focusing on javascript frameworks/libraries.
 - ⚡ Available for remote work/Freelance projects/internship opportunities.
-- 👯 I’m looking to collaborate on Web Projects.
-- 🤔 I’m looking for help with [smaller](https://smaller-studios.github.io/).
+- 👯 I’m looking to collaborate with Startups
+<!-- - 🤔 I’m looking for help with [smaller](https://smaller-studios.github.io/). -->
 - 😄 Pronouns: He/Him 
 - 💬 Ask me about anything
 - 📫 How to reach me: All information is provided on my [portfolio](https://s-lungelo.netlify.app)
