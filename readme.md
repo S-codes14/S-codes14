@@ -3,10 +3,6 @@
 	
 </p>
 
-
-### <img src="https://raw.githubusercontent.com/S-codes14/S-codes14/main/Hi.gif" width="29px"> Hi there I am Sibonumusa  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif" width="24px">
-
-
 ### More about me
 - 🔭 I’m currently working on the next BILLION DOLLAR APP
 - 🌱 I’m currently focusing on javascript frameworks/libraries.
