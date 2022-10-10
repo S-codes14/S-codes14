@@ -3,15 +3,15 @@
 	
 </p>
 
-### More about me
-- 🔭 I’m currently working on the next BILLION DOLLAR APP
+<!-- ### More about me -->
+<!-- - 🔭 I’m currently working on the next BILLION DOLLAR APP
 - 🌱 I’m currently focusing on javascript frameworks/libraries.
 - ⚡ Available for remote work/Freelance projects/internship opportunities.
 - 👯 I’m looking to collaborate with Startups
-<!-- - 🤔 I’m looking for help with [smaller](https://smaller-studios.github.io/). -->
+- 🤔 I’m looking for help with [smaller](https://smaller-studios.github.io/). 
 - 😄 Pronouns: He/Him 
-- 💬 Ask me about anything
-- 📫 How to reach me: All information is provided on my [portfolio](https://s-codes14.netlify.app)
+- 💬 Ask me about anything -->
+<!-- - 📫 How to reach me: All information is provided on my [portfolio](https://s-codes14.netlify.app)-->
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=S-codes14&" alt="S-codes14" /></p>
 
